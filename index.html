@@ -12,18 +12,19 @@
     <section id="home" class="screen">
       <header>
         <h1>NCBAHM Herb Prep</h1>
-        <p class="subtitle">Quiz Practice</p>
+        <p class="subtitle">Trial of Knowledge</p>
       </header>
 
       <div class="stats-card">
-        <div class="stat-label">Overall Performance</div>
+        <div class="stat-label">Imperial Standing</div>
         <div id="overall-score" class="stat-value">—</div>
         <div id="overall-grade" class="grade-badge">—</div>
+        <div id="overall-quote" class="rank-quote"></div>
         <div id="overall-detail" class="stat-detail"></div>
       </div>
 
       <div class="start-section">
-        <p class="section-label">Start a new set</p>
+        <p class="section-label">Begin a new trial</p>
         <div class="btn-group">
           <button class="btn btn-primary" data-count="10">10 Questions</button>
           <button class="btn btn-primary" data-count="20">20 Questions</button>
@@ -36,7 +37,10 @@
     <!-- Quiz Screen -->
     <section id="quiz" class="screen hidden">
       <header class="quiz-header">
-        <div id="progress-text">Question 1 / 10</div>
+        <div class="quiz-top-row">
+          <div id="progress-text">Question 1 / 10</div>
+          <button id="exit-btn" class="btn-exit" type="button">Abort</button>
+        </div>
         <div class="progress-bar">
           <div id="progress-fill" class="progress-fill"></div>
         </div>
@@ -53,8 +57,8 @@
           <div id="answer-display" class="answer-display"></div>
           <div id="extra-display" class="extra-display"></div>
           <div id="flashcard-actions" class="btn-group hidden">
-            <button id="got-right" class="btn btn-success">I got it right</button>
-            <button id="got-wrong" class="btn btn-danger">I got it wrong</button>
+            <button id="got-right" class="btn btn-success">For the Emperor</button>
+            <button id="got-wrong" class="btn btn-danger">Failure</button>
           </div>
           <button id="next-btn" class="btn btn-primary hidden">Next</button>
         </div>
@@ -64,22 +68,23 @@
     <!-- Results Screen -->
     <section id="results" class="screen hidden">
       <header>
-        <h1>Set Complete</h1>
+        <h1 id="results-title">Trial Complete</h1>
       </header>
 
       <div class="stats-card">
-        <div class="stat-label">This Set</div>
+        <div class="stat-label">This Trial</div>
         <div id="set-score" class="stat-value">0 / 0</div>
         <div id="set-percent" class="stat-detail"></div>
       </div>
 
       <div class="stats-card">
-        <div class="stat-label">Overall Performance</div>
+        <div class="stat-label">Imperial Standing</div>
         <div id="results-overall" class="stat-value">—</div>
         <div id="results-grade" class="grade-badge">—</div>
+        <div id="results-quote" class="rank-quote"></div>
       </div>
 
-      <button id="home-btn" class="btn btn-primary">Back to Home</button>
+      <button id="home-btn" class="btn btn-primary">Return</button>
     </section>
   </div>
 

@@ -4,6 +4,7 @@
   let quizQuestions = [];
   let currentIndex = 0;
   let correctCount = 0;
+  let answeredCount = 0;
   let answered = false;
 
   // ---------- DOM ----------
@@ -13,6 +14,7 @@
 
   const overallScoreEl = document.getElementById("overall-score");
   const overallGradeEl = document.getElementById("overall-grade");
+  const overallQuoteEl = document.getElementById("overall-quote");
   const overallDetailEl = document.getElementById("overall-detail");
   const availableCountEl = document.getElementById("available-count");
 
@@ -33,7 +35,10 @@
   const setPercentEl = document.getElementById("set-percent");
   const resultsOverallEl = document.getElementById("results-overall");
   const resultsGradeEl = document.getElementById("results-grade");
+  const resultsQuoteEl = document.getElementById("results-quote");
+  const resultsTitleEl = document.getElementById("results-title");
   const homeBtn = document.getElementById("home-btn");
+  const exitBtn = document.getElementById("exit-btn");
 
   // ---------- Storage ----------
   const STORAGE_KEY = "nc-bahm-herb-prep-stats";
@@ -56,12 +61,40 @@
     localStorage.setItem(STORAGE_KEY, JSON.stringify(stats));
   }
 
-  function getGrade(percent) {
-    if (percent >= 90) return "A";
-    if (percent >= 80) return "B";
-    if (percent >= 70) return "C";
-    if (percent >= 60) return "D";
-    return "F";
+  function getGradeInfo(percent) {
+    if (percent >= 90) {
+      return {
+        label: "Chapter Master",
+        key: "a",
+        quote: "The Emperor protects. Your knowledge is a beacon in the darkness.",
+      };
+    }
+    if (percent >= 80) {
+      return {
+        label: "Captain",
+        key: "b",
+        quote: "For the Emperor and the Imperium! Lead by example.",
+      };
+    }
+    if (percent >= 70) {
+      return {
+        label: "Sergeant",
+        key: "c",
+        quote: "Duty is its own reward. Stay the course, warrior.",
+      };
+    }
+    if (percent >= 60) {
+      return {
+        label: "Battle-Brother",
+        key: "d",
+        quote: "Blessed is the mind too small for doubt. Keep training.",
+      };
+    }
+    return {
+      label: "Heretic",
+      key: "f",
+      quote: "Suffer not the heretic to live. Repent, and study harder.",
+    };
   }
 
   function updateOverallDisplay() {
@@ -70,14 +103,16 @@
       overallScoreEl.textContent = "—";
       overallGradeEl.textContent = "—";
       overallGradeEl.className = "grade-badge";
-      overallDetailEl.textContent = "No quizzes completed yet";
+      overallQuoteEl.textContent = "";
+      overallDetailEl.textContent = "No trials completed yet";
       return;
     }
     const percent = Math.round((stats.correct / stats.total) * 100);
-    const grade = getGrade(percent);
+    const info = getGradeInfo(percent);
     overallScoreEl.textContent = percent + "%";
-    overallGradeEl.textContent = grade;
-    overallGradeEl.className = "grade-badge grade-" + grade.toLowerCase();
+    overallGradeEl.textContent = info.label;
+    overallGradeEl.className = "grade-badge grade-" + info.key;
+    overallQuoteEl.textContent = info.quote;
     overallDetailEl.textContent = `${stats.correct} correct out of ${stats.total}`;
   }
 
@@ -132,6 +167,7 @@
     quizQuestions = shuffle(allQuestions).slice(0, take);
     currentIndex = 0;
     correctCount = 0;
+    answeredCount = 0;
     answered = false;
     showScreen(quizScreen);
     renderQuestion();
@@ -174,6 +210,7 @@
   function handleMcqAnswer(selected, q) {
     if (answered) return;
     answered = true;
+    answeredCount++;
 
     const correct = selected === q.answer;
     if (correct) correctCount++;
@@ -203,6 +240,7 @@
   function handleFlashcardGrade(gotItRight) {
     if (answered) return;
     answered = true;
+    answeredCount++;
     if (gotItRight) correctCount++;
     flashcardActions.classList.add("hidden");
     nextBtn.classList.remove("hidden");
@@ -240,29 +278,50 @@
     }
   }
 
-  function finishQuiz() {
-    const total = quizQuestions.length;
+  function finishQuiz(earlyExit = false) {
+    const total = answeredCount;
     const percent = total > 0 ? Math.round((correctCount / total) * 100) : 0;
 
-    // Update persistent stats
+    // Update persistent stats only for questions that were answered
     const stats = loadStats();
     stats.correct += correctCount;
     stats.total += total;
     saveStats(stats);
 
     // Display results
+    resultsTitleEl.textContent = earlyExit ? "Trial Aborted" : "Trial Complete";
     setScoreEl.textContent = `${correctCount} / ${total}`;
-    setPercentEl.textContent = `${percent}% correct`;
+    setPercentEl.textContent =
+      total > 0 ? `${percent}% correct` : "No questions answered";
 
-    const overallPercent = Math.round((stats.correct / stats.total) * 100);
-    const grade = getGrade(overallPercent);
-    resultsOverallEl.textContent = overallPercent + "%";
-    resultsGradeEl.textContent = grade;
-    resultsGradeEl.className = "grade-badge grade-" + grade.toLowerCase();
+    const overallPercent =
+      stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0;
+    if (stats.total > 0) {
+      const info = getGradeInfo(overallPercent);
+      resultsOverallEl.textContent = overallPercent + "%";
+      resultsGradeEl.textContent = info.label;
+      resultsGradeEl.className = "grade-badge grade-" + info.key;
+      resultsQuoteEl.textContent = info.quote;
+    } else {
+      resultsOverallEl.textContent = "—";
+      resultsGradeEl.textContent = "—";
+      resultsGradeEl.className = "grade-badge";
+      resultsQuoteEl.textContent = "";
+    }
 
     progressFill.style.width = "100%";
     showScreen(resultsScreen);
     updateOverallDisplay();
+  }
+
+  function exitQuiz() {
+    if (answeredCount === 0) {
+      // Nothing graded yet — just return home, no stats change
+      showScreen(homeScreen);
+      updateOverallDisplay();
+      return;
+    }
+    finishQuiz(true);
   }
 
   // ---------- Events ----------
@@ -277,6 +336,7 @@
   gotRightBtn.addEventListener("click", () => handleFlashcardGrade(true));
   gotWrongBtn.addEventListener("click", () => handleFlashcardGrade(false));
   nextBtn.addEventListener("click", nextQuestion);
+  exitBtn.addEventListener("click", exitQuiz);
   homeBtn.addEventListener("click", () => {
     showScreen(homeScreen);
     updateOverallDisplay();
