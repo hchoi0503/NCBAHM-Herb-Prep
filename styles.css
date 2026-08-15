@@ -31,17 +31,17 @@ html {
 
 body {
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background-color: var(--bg);
+  background-color: #050403;
   background-image:
     linear-gradient(
       180deg,
-      rgba(8, 6, 4, 0.82) 0%,
-      rgba(10, 8, 6, 0.88) 40%,
-      rgba(6, 5, 4, 0.94) 100%
+      rgba(8, 6, 4, 0.45) 0%,
+      rgba(10, 8, 6, 0.55) 50%,
+      rgba(5, 4, 3, 0.7) 100%
     ),
     url("bg.jpg");
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: var(--text);
@@ -146,13 +146,13 @@ h1 {
 
 /* Cards */
 .stats-card {
-  background: rgba(20, 18, 16, 0.92);
+  background: rgba(16, 14, 12, 0.88);
   border: 1px solid var(--border-gold);
   border-radius: var(--radius);
   padding: 1.25rem 1.5rem;
   text-align: center;
   box-shadow: var(--shadow);
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(8px);
 }
 
 .stat-label {
@@ -313,12 +313,12 @@ h1 {
 
 /* Question card */
 .question-card {
-  background: rgba(20, 18, 16, 0.92);
+  background: rgba(16, 14, 12, 0.88);
   border: 1px solid var(--border-gold);
   border-radius: var(--radius);
   padding: 1.5rem 1.25rem;
   box-shadow: var(--shadow);
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(8px);
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
