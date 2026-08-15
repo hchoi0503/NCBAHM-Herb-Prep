@@ -31,10 +31,19 @@ html {
 
 body {
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background: var(--bg);
+  background-color: var(--bg);
   background-image:
-    radial-gradient(ellipse at top, #1a1208 0%, transparent 55%),
-    linear-gradient(180deg, #0a0a0a 0%, #0d0b09 100%);
+    linear-gradient(
+      180deg,
+      rgba(8, 6, 4, 0.82) 0%,
+      rgba(10, 8, 6, 0.88) 40%,
+      rgba(6, 5, 4, 0.94) 100%
+    ),
+    url("bg.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: var(--text);
   min-height: 100dvh;
   line-height: 1.5;
@@ -137,12 +146,13 @@ h1 {
 
 /* Cards */
 .stats-card {
-  background: var(--surface);
+  background: rgba(20, 18, 16, 0.92);
   border: 1px solid var(--border-gold);
   border-radius: var(--radius);
   padding: 1.25rem 1.5rem;
   text-align: center;
   box-shadow: var(--shadow);
+  backdrop-filter: blur(6px);
 }
 
 .stat-label {
@@ -303,11 +313,12 @@ h1 {
 
 /* Question card */
 .question-card {
-  background: var(--surface);
+  background: rgba(20, 18, 16, 0.92);
   border: 1px solid var(--border-gold);
   border-radius: var(--radius);
   padding: 1.5rem 1.25rem;
   box-shadow: var(--shadow);
+  backdrop-filter: blur(6px);
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -422,5 +433,12 @@ h1 {
 
   .question-text {
     font-size: 1.05rem;
+  }
+}
+
+/* iOS / mobile: fixed backgrounds can jank — use scroll */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
   }
 }
