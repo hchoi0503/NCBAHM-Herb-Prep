@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "question": "Which herb is commonly used for its calming effects and is often taken as a tea before bed?",
+    "options": ["Ginseng", "Chamomile", "Echinacea", "Ginger"],
+    "answer": "Chamomile",
+    "extra": "Chamomile contains apigenin, which binds to benzodiazepine receptors and promotes relaxation."
+  },
+  {
+    "id": 2,
+    "question": "True or False: St. John's Wort can interact with many prescription medications, including antidepressants and birth control.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "extra": "It induces CYP3A4 and can significantly reduce the effectiveness of many drugs."
+  },
+  {
+    "id": 3,
+    "question": "What is the primary active compound in turmeric that is studied for anti-inflammatory properties?",
+    "answer": "Curcumin",
+    "extra": "Curcumin has low bioavailability; it is often paired with piperine (from black pepper) to improve absorption."
+  },
+  {
+    "id": 4,
+    "question": "Which part of the Echinacea plant is most commonly used in immune-support preparations?",
+    "options": ["Leaves only", "Roots and aerial parts", "Seeds", "Flowers only"],
+    "answer": "Roots and aerial parts",
+    "extra": "Both roots and above-ground parts are used, depending on the species and preparation."
+  },
+  {
+    "id": 5,
+    "question": "Name the traditional Chinese herb often called 'reishi' that is used as an adaptogen.",
+    "answer": "Ganoderma lucidum (Lingzhi)",
+    "extra": "It is a medicinal mushroom valued for immune modulation and longevity support."
+  },
+  {
+    "id": 6,
+    "question": "Which herb is best known for supporting digestive health and reducing nausea?",
+    "options": ["Valerian", "Ginger", "Valerian root", "Milk thistle"],
+    "answer": "Ginger",
+    "extra": "Gingerols and shogaols are the main bioactive compounds responsible for its antiemetic effects."
+  },
+  {
+    "id": 7,
+    "question": "What is the common name for Hypericum perforatum?",
+    "answer": "St. John's Wort",
+    "extra": "Widely studied for mild-to-moderate depression, but has many drug interactions."
+  },
+  {
+    "id": 8,
+    "question": "Milk thistle is primarily used to support which organ?",
+    "options": ["Heart", "Liver", "Kidneys", "Lungs"],
+    "answer": "Liver",
+    "extra": "Silymarin is the key complex of flavonolignans that provides hepatoprotective effects."
+  }
+]

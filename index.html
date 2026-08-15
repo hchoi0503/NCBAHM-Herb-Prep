@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>NCBAHM Herb Prep</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Home Screen -->
+    <section id="home" class="screen">
+      <header>
+        <h1>NCBAHM Herb Prep</h1>
+        <p class="subtitle">Quiz Practice</p>
+      </header>
+
+      <div class="stats-card">
+        <div class="stat-label">Overall Performance</div>
+        <div id="overall-score" class="stat-value">—</div>
+        <div id="overall-grade" class="grade-badge">—</div>
+        <div id="overall-detail" class="stat-detail"></div>
+      </div>
+
+      <div class="start-section">
+        <p class="section-label">Start a new set</p>
+        <div class="btn-group">
+          <button class="btn btn-primary" data-count="10">10 Questions</button>
+          <button class="btn btn-primary" data-count="20">20 Questions</button>
+          <button class="btn btn-primary" data-count="50">50 Questions</button>
+        </div>
+        <p id="available-count" class="hint"></p>
+      </div>
+    </section>
+
+    <!-- Quiz Screen -->
+    <section id="quiz" class="screen hidden">
+      <header class="quiz-header">
+        <div id="progress-text">Question 1 / 10</div>
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill"></div>
+        </div>
+      </header>
+
+      <div class="question-card">
+        <p id="question-text" class="question-text"></p>
+
+        <div id="options-container" class="options hidden"></div>
+
+        <button id="reveal-btn" class="btn btn-secondary hidden">Reveal Answer</button>
+
+        <div id="feedback" class="feedback hidden">
+          <div id="answer-display" class="answer-display"></div>
+          <div id="extra-display" class="extra-display"></div>
+          <div id="flashcard-actions" class="btn-group hidden">
+            <button id="got-right" class="btn btn-success">I got it right</button>
+            <button id="got-wrong" class="btn btn-danger">I got it wrong</button>
+          </div>
+          <button id="next-btn" class="btn btn-primary hidden">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results Screen -->
+    <section id="results" class="screen hidden">
+      <header>
+        <h1>Set Complete</h1>
+      </header>
+
+      <div class="stats-card">
+        <div class="stat-label">This Set</div>
+        <div id="set-score" class="stat-value">0 / 0</div>
+        <div id="set-percent" class="stat-detail"></div>
+      </div>
+
+      <div class="stats-card">
+        <div class="stat-label">Overall Performance</div>
+        <div id="results-overall" class="stat-value">—</div>
+        <div id="results-grade" class="grade-badge">—</div>
+      </div>
+
+      <button id="home-btn" class="btn btn-primary">Back to Home</button>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
