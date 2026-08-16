@@ -1,762 +1,914 @@
 [
   {
     "id": 1,
-    "question": "Nourishes Liver and Kidney Yin using Shu Di Huang (숙지황), Shan Zhu Yu (산수유), Shan Yao (산약), Ze Xie (택사), Mu Dan Pi (모단피), and Fu Ling (복령), but is contraindicated in cases of Spleen deficiency with diarrhea or indigestion due to its rich, cloying nature.",
-    "answer": "Lie Wei Di Huang Wan (육미지황환)"
+    "question": "Formula that nourishes Liver and Kidney Yin using Shu Di Huang (숙지황), Shan Zhu Yu (산수유), Shan Yao (산약), Ze Xie (택사), Mu Dan Pi (모단피), and Fu Ling (복령), but is contraindicated in cases of Spleen deficiency with diarrhea or indigestion due to its rich, cloying nature.",
+    "answer": "Lie Wei Di Huang Wan (육미지황환)",
+    "tag": "Formula"
   },
   {
     "id": 2,
     "question": "A pair that tonifies SP Qi and leaching out Dampness.",
-    "answer": "Bai Zhu (백출) + Fu Ling (복령)"
+    "answer": "Bai Zhu (백출) + Fu Ling (복령)",
+    "tag": "Herb"
   },
   {
     "id": 3,
-    "question": "A warming exterior-releasing herb with a damp-draining herb to invigorate blood and resolve phlegm/masses.",
-    "answer": "Gui Zhi (계지) + Fu Ling (복령)"
+    "question": "A pair consists of a warming exterior-releasing herb with a damp-draining herb to invigorate blood and resolve phlegm/masses.",
+    "answer": "Gui Zhi (계지) + Fu Ling (복령)",
+    "tag": "Herb"
   },
   {
     "id": 4,
     "question": "Nourishing and tonifying Blood pair.",
-    "answer": "Shu Di Huang (숙지황) + Dang Gui (당귀)"
+    "answer": "Shu Di Huang (숙지황) + Dang Gui (당귀)",
+    "tag": "Herb"
   },
   {
     "id": 5,
     "question": "A pair that drains heat, cools blood, and dispels blood stasis in lower abdominal abscesses/intestinal heat.",
-    "answer": "Mu Dan Pi (모단피) + Da Huang (대황)"
+    "answer": "Mu Dan Pi (모단피) + Da Huang (대황)",
+    "tag": "Herb"
   },
   {
     "id": 6,
     "question": "Famous pair for cooling blood heat and invigorating blood circulation to break up stasis.",
-    "answer": "Mu Dan Pi (모단피) + Chi Shao (적작약)"
+    "answer": "Mu Dan Pi (모단피) + Chi Shao (적작약)",
+    "tag": "Herb"
   },
   {
     "id": 7,
     "question": "A pair for tonifying Spleen/Lung Qi and stabilizing fluids or essence.",
-    "answer": "Huang Qi (황기) + Shan Yao (산약)"
+    "answer": "Huang Qi (황기) + Shan Yao (산약)",
+    "tag": "Herb"
   },
   {
     "id": 8,
     "question": "A pair for promoting urination and leaching out dampness in urinary or water retention disorders.",
-    "answer": "Ze Xie (택사) + Zhu Ling (저령)"
+    "answer": "Ze Xie (택사) + Zhu Ling (저령)",
+    "tag": "Herb"
   },
   {
     "id": 9,
     "question": "A pair for promoting urination and leaching out dampness in urinary or water retention disorders.",
-    "answer": "Ze Xie (택사) + Fu Ling (복령)"
+    "answer": "Ze Xie (택사) + Fu Ling (복령)",
+    "tag": "Herb"
   },
   {
     "id": 10,
-    "question": "A heavy, rich, deeply moistening root prepared with wine and steaming to concentrate its nourishing properties. Deeply builds Blood and nourishes Yin. The ultimate \"fluid builder\" for severe dryness, blood deficiency, or marrow depletion.",
-    "answer": "Shu Di Huang (숙지황)"
+    "question": "Herb. A heavy, rich, deeply moistening root prepared with wine and steaming to concentrate its nourishing properties. Deeply builds Blood and nourishes Yin. The ultimate \"fluid builder\" for severe dryness, blood deficiency, or marrow depletion.",
+    "answer": "Shu Di Huang (숙지황)",
+    "tag": "Herb"
   },
   {
     "id": 11,
-    "question": "A sour, warm berry that holds and secures fluids inside the body. Astringes and stops abnormal leakage of boy fluids. The \"gatekeeper\" that locks in Essence and stops fluid exhaustion.",
-    "answer": "Shan Zhu Yu (산수유)"
+    "question": "Herb. A sour, warm berry that holds and secures fluids inside the body. Astringes and stops abnormal leakage of boy fluids. The \"gatekeeper\" that locks in Essence and stops fluid exhaustion.",
+    "answer": "Shan Zhu Yu (산수유)",
+    "tag": "Herb"
   },
   {
     "id": 12,
-    "question": "A mild, soothing, starch-rich root that gently tonifies both Qi and Yin simultaneously. The gentle, non-irritating \"daily nourisher\" for digestive and fluid recovery.",
-    "answer": "Shan Yao (산약)"
+    "question": "Herb. A mild, soothing, starch-rich root that gently tonifies both Qi and Yin simultaneously. The gentle, non-irritating \"daily nourisher\" for digestive and fluid recovery.",
+    "answer": "Shan Yao (산약)",
+    "tag": "Herb"
   },
   {
     "id": 13,
-    "question": "A cold, water-draining tuber that directs fluid metabolism downward. Promotes urination to leach out accumulated dampness or water retention. The \"drainage valve\" that keeps fluid moving down and out before it stagnates into heat.",
-    "answer": "Ze Xie (택사)"
+    "question": "Herb. A cold, water-draining tuber that directs fluid metabolism downward. Promotes urination to leach out accumulated dampness or water retention. The \"drainage valve\" that keeps fluid moving down and out before it stagnates into heat.",
+    "answer": "Ze Xie (택사)",
+    "tag": "Herb"
   },
   {
     "id": 14,
-    "question": "A fragrant root bark that cools heat circulating in the blood while keeping blood moving smoothly. Clears heat from the Blood level and drains LR Deficiency Fire. The \"cooling circulating agent\" that extinguishes heat trapped deep in the blood.",
-    "answer": "Mu Dan Pi (모단피)"
+    "question": "Herb. A fragrant root bark that cools heat circulating in the blood while keeping blood moving smoothly. Clears heat from the Blood level and drains LR Deficiency Fire. The \"cooling circulating agent\" that extinguishes heat trapped deep in the blood.",
+    "answer": "Mu Dan Pi (모단피)",
+    "tag": "Herb"
   },
   {
     "id": 15,
-    "question": "A neutral fungus (poria) that gently drains excess water while soothing the mind. Leaches out dampness via urination and strengthens SP Qi. The versatile \"balancer\" that clears excess dampness while supporting digestive and mental stability.",
-    "answer": "Fu Ling (복령)"
+    "question": "Herb. A neutral fungus (poria) that gently drains excess water while soothing the mind. Leaches out dampness via urination and strengthens SP Qi. The versatile \"balancer\" that clears excess dampness while supporting digestive and mental stability.",
+    "answer": "Fu Ling (복령)",
+    "tag": "Herb"
   },
   {
     "id": 16,
-    "question": "Liu Wei Di Huang Wan (육미지황환) + Wu Wei Zi (오미자); Nourishes Kidney Yin while astringing and grasping Lung Qi; Treats chronic cough, wheezing, or dyspnea caused by Kidney Yin deficiency failing to grasp Qi (when the Kidneys cannot pull down the air breathed in by the Lungs).",
-    "answer": "Du Qi Wan (두기환)"
+    "question": "Formula. Liu Wei Di Huang Wan (육미지황환) + Wu Wei Zi (오미자); Nourishes Kidney Yin while astringing and grasping Lung Qi; Treats chronic cough, wheezing, or dyspnea caused by Kidney Yin deficiency failing to grasp Qi (when the Kidneys cannot pull down the air breathed in by the Lungs).",
+    "answer": "Du Qi Wan (두기환)",
+    "tag": "Formula"
   },
   {
     "id": 17,
-    "question": "Liu Wei Di Huang Wan (육미지황환) + Gou Qi Zi (구기자) + Ju Hua (국화); Nourishes Liver and Kidney Yin, clears Liver Heat, and brightens the eyes; Treats eye disorders caused by Liver and Kidney Yin deficiency, such as dry eyes, diminished or blurry vision, floaters, photophobia, or tearing when exposed to wind.",
-    "answer": "Qi Ju Di Huang Wan (기국지황환)"
+    "question": "Formula. Liu Wei Di Huang Wan (육미지황환) + Gou Qi Zi (구기자) + Ju Hua (국화); Nourishes Liver and Kidney Yin, clears Liver Heat, and brightens the eyes; Treats eye disorders caused by Liver and Kidney Yin deficiency, such as dry eyes, diminished or blurry vision, floaters, photophobia, or tearing when exposed to wind.",
+    "answer": "Qi Ju Di Huang Wan (기국지황환)",
+    "tag": "Formula"
   },
   {
     "id": 18,
-    "question": "Liu Wei Di Huang Wan (육미지황환) + Zhi Mu (지모) + Huang Bai (황백); Nourishes Kidney Yin, drains Deficiency Fire, and clears Empty Heat; Treats severe Kidney Yin deficiency accompanied by surging Deficiency Fire / Empty Heat signs, such as steaming bone sensations, tidal fevers, severe night sweats, hot flashes, dry mouth, red tongue with little coat, and a rapid, thin pulse.",
-    "answer": "Zhi Bai Di Huang Wan (지백지황환)"
+    "question": "Formula. Liu Wei Di Huang Wan (육미지황환) + Zhi Mu (지모) + Huang Bai (황백); Nourishes Kidney Yin, drains Deficiency Fire, and clears Empty Heat; Treats severe Kidney Yin deficiency accompanied by surging Deficiency Fire / Empty Heat signs, such as steaming bone sensations, tidal fevers, severe night sweats, hot flashes, dry mouth, red tongue with little coat, and a rapid, thin pulse.",
+    "answer": "Zhi Bai Di Huang Wan (지백지황환)",
+    "tag": "Formula"
   },
   {
     "id": 19,
-    "question": "A unique fruit possessing all \"five flavors\" (predominantly sour and sweet) that acts as a master binder for leakage across the upper, middle, and lower jiao; The ultimate \"astringent lock\" that prevents Qi and fluids from leaking out of the body.",
-    "answer": "Wu Wei Zi (오미자)"
+    "question": "Herb. A unique fruit possessing all \"five flavors\" (predominantly sour and sweet) that acts as a master binder for leakage across the upper, middle, and lower jiao; The ultimate \"astringent lock\" that prevents Qi and fluids from leaking out of the body.",
+    "answer": "Wu Wei Zi (오미자)",
+    "tag": "Herb"
   },
   {
     "id": 20,
-    "question": "A sweet, moist berry that gently nourishes Blood and Yin without being cloying or heavy on digestion; The gentle, sweet \"eye and blood restorer\" that builds essence and brightens vision.",
-    "answer": "Gou Qi Zi (구기자)"
+    "question": "Herb. A sweet, moist berry that gently nourishes Blood and Yin without being cloying or heavy on digestion; The gentle, sweet \"eye and blood restorer\" that builds essence and brightens vision.",
+    "answer": "Gou Qi Zi (구기자)",
+    "tag": "Herb"
   },
   {
     "id": 21,
-    "question": "A light, aromatic flower that disperses wind and cools heat from the upper body, especially the head and eyes; The light, cooling \"upper-clearing flower\" that soothens Liver Heat and brightens the eyes.",
-    "answer": "Ju Hua (국화)"
+    "question": "Herb. A light, aromatic flower that disperses wind and cools heat from the upper body, especially the head and eyes; The light, cooling \"upper-clearing flower\" that soothens Liver Heat and brightens the eyes.",
+    "answer": "Ju Hua (국화)",
+    "tag": "Herb"
   },
   {
     "id": 22,
-    "question": "A cold, moistening root that clears severe heat while preserving and generating body fluids; The moistening \"fire extinguisher\" that clears intense internal heat without causing dryness.",
-    "answer": "Zhi Mu (지모)"
+    "question": "Herb. A cold, moistening root that clears severe heat while preserving and generating body fluids; The moistening \"fire extinguisher\" that clears intense internal heat without causing dryness.",
+    "answer": "Zhi Mu (지모)",
+    "tag": "Herb"
   },
   {
     "id": 23,
-    "question": "A strongly cold, bitter bark that specifically targets and drains damp-heat and fire in the Lower Jiao; The heavy \"lower-jiao cooler\" that purges trapped dampness and deficiency fire from the Kidneys and Bladder.",
-    "answer": "Huang Bai (황백)"
+    "question": "Herb. A strongly cold, bitter bark that specifically targets and drains damp-heat and fire in the Lower Jiao; The heavy \"lower-jiao cooler\" that purges trapped dampness and deficiency fire from the Kidneys and Bladder.",
+    "answer": "Huang Bai (황백)",
+    "tag": "Herb"
   },
   {
     "id": 24,
     "question": "A pair for clearing Yin-Deficiency Heat and draining Kidney Deficiency Fire.",
-    "answer": "Zhi Mu (지모) + Huang Bai (황백)"
+    "answer": "Zhi Mu (지모) + Huang Bai (황백)",
+    "tag": "Herb"
   },
   {
     "id": 25,
     "question": "A pair that nourishes Liver Blood and Kidney Yin, while clears Liver Heat and brightens the eyes.",
-    "answer": "Gou Qi Zi (구기자) + Ju Hua (국화)"
+    "answer": "Gou Qi Zi (구기자) + Ju Hua (국화)",
+    "tag": "Herb"
   },
   {
     "id": 26,
     "question": "A pair that nourishes Yin and astringes fluids/sweat to prevent fluid collapse.",
-    "answer": "Wu Wei Zi (오미자) + Mai Men Dong (맥문동)"
+    "answer": "Wu Wei Zi (오미자) + Mai Men Dong (맥문동)",
+    "tag": "Herb"
   },
   {
     "id": 27,
     "question": "A pair that warms the LU, transforms phlegm, and astringes LU Qi to treat severe wheezing and watery phlegm cough.",
-    "answer": "Wu Wei Zi (오미자) + Gan Jiang (건강) (often with Xi Xin (세신))"
+    "answer": "Wu Wei Zi (오미자) + Gan Jiang (건강) (often with Xi Xin (세신))",
+    "tag": "Herb"
   },
   {
     "id": 28,
     "question": "A pair that clears intense Fire/Heat at the Qi level.",
-    "answer": "Zhi Mu (지모) + Shi Gao (석고)"
+    "answer": "Zhi Mu (지모) + Shi Gao (석고)",
+    "tag": "Herb"
   },
   {
     "id": 29,
     "question": "A pair that drains Damp-Heat downward and dries dampness in the SP/LJ.",
-    "answer": "Huang Bai (황백) + Cang Zhu (창출)"
+    "answer": "Huang Bai (황백) + Cang Zhu (창출)",
+    "tag": "Herb"
   },
   {
     "id": 30,
     "question": "A pair for nourishing LR and KD Yin and securing Essence.",
-    "answer": "Shu Di Huang (숙지황) + Shan Zhu Yu (산수유)"
+    "answer": "Shu Di Huang (숙지황) + Shan Zhu Yu (산수유)",
+    "tag": "Herb"
   },
   {
     "id": 31,
     "question": "A pair for draining empty Fire and clearing LJ Deficiency-Heat.",
-    "answer": "Zhi Mu (지모) + Huang Bai (황백)"
+    "answer": "Zhi Mu (지모) + Huang Bai (황백)",
+    "tag": "Herb"
   },
   {
     "id": 32,
     "question": "A pair for nourishing LR Blood/Yin and clearing LR Wind-Heat to brigghten the eyes.",
-    "answer": "Gou Qi Zi (구기자) + Ju Hua (국화)"
+    "answer": "Gou Qi Zi (구기자) + Ju Hua (국화)",
+    "tag": "Herb"
   },
   {
     "id": 33,
     "question": "A pair for igniting Ming Men Fire and warming KD Yang.",
-    "answer": "Gui Zhi (계지) / Rou Gui (육계) + Fu Zi (부자)"
+    "answer": "Gui Zhi (계지) / Rou Gui (육계) + Fu Zi (부자)",
+    "tag": "Herb"
   },
   {
     "id": 34,
     "question": "A pair to unblock urinary paths and reduce lower extremity edema.",
-    "answer": "Niu Xi (우슬) + Che Qian Zi (차전자)"
+    "answer": "Niu Xi (우슬) + Che Qian Zi (차전자)",
+    "tag": "Herb"
   },
   {
     "id": 35,
     "question": "Foundational formula for nourishing Liver and Kidney Yin",
-    "answer": "Liu Wei Di Huang Wan (육미지황환)"
+    "answer": "Liu Wei Di Huang Wan (육미지황환)",
+    "tag": "Formula"
   },
   {
     "id": 36,
     "question": "The \"Three Tonics\" herbs in Liu Wei Di Huang Wan",
-    "answer": "Shu Di Huang (숙지황), Shan Zhu Yu (산수유), and Shan Yao (산약)"
+    "answer": "Shu Di Huang (숙지황), Shan Zhu Yu (산수유), and Shan Yao (산약)",
+    "tag": "Formula"
   },
   {
     "id": 37,
     "question": "The \"Three Drains\" herbs in Liu Wei Di Huang Wan",
-    "answer": "Ze Xie (택사), Mu Dan Pi (목담피), and Fu Ling (복령)"
+    "answer": "Ze Xie (택사), Mu Dan Pi (목담피), and Fu Ling (복령)",
+    "tag": "Formula"
   },
   {
     "id": 38,
     "question": "Primary actions of Shu Di Huang (숙지황)",
-    "answer": "Nourish Blood, enriches Kidney Yin, and tonifies Essence (Jing)"
+    "answer": "Nourish Blood, enriches Kidney Yin, and tonifies Essence (Jing)",
+    "tag": "Herb"
   },
   {
     "id": 39,
     "question": "Primary actions of Shan Zhu Yu (산수유)",
-    "answer": "Nourishes Liver Yin, stabilizes the Kidney, and secures Essence"
+    "answer": "Nourishes Liver Yin, stabilizes the Kidney, and secures Essence",
+    "tag": "Herb"
   },
   {
     "id": 40,
     "question": "Primary actions of Shan Yao (산약)",
-    "answer": "Tonifies Spleen Qi and Qi/Yin of the Lung and Kidney"
+    "answer": "Tonifies Spleen Qi and Qi/Yin of the Lung and Kidney",
+    "tag": "Herb"
   },
   {
     "id": 41,
     "question": "Primary clinical indications for Du Qi Wan (독기환)",
-    "answer": "Kidney Yin deficiency with chronic cough, wheezing, and asthma due to failure to grasp Qi"
+    "answer": "Kidney Yin deficiency with chronic cough, wheezing, and asthma due to failure to grasp Qi",
+    "tag": "Formula"
   },
   {
     "id": 42,
     "question": "Primary clinical focus of Jin Gui Shen Qi Wan (금궤신기환)",
-    "answer": "Kidney Yang deficiency with cold sensation in lower back/extremities, dysuria, or polyuria"
+    "answer": "Kidney Yang deficiency with cold sensation in lower back/extremities, dysuria, or polyuria",
+    "tag": "Formula"
   },
   {
     "id": 43,
     "question": "Primary clinical focus of You Gui Wan (우귀환)",
-    "answer": "Severe Kidney Yang and Ming Men Fire deficiency with severe coldness, impotence, and weakness"
+    "answer": "Severe Kidney Yang and Ming Men Fire deficiency with severe coldness, impotence, and weakness",
+    "tag": "Formula"
   },
   {
     "id": 44,
     "question": "Key difference between Shu Di Huang (숙지황) and Sheng Di Huang (생지황)",
-    "answer": "Shu Di Huang is prepared/cooked (warm, tonifies Blood/Yin/Jing); Sheng Di Huang is raw (cold, clears Heat/cools Blood)"
+    "answer": "Shu Di Huang is prepared/cooked (warm, tonifies Blood/Yin/Jing); Sheng Di Huang is raw (cold, clears Heat/cools Blood)",
+    "tag": "Herb"
   },
   {
     "id": 45,
     "question": "Primary clinical contraindication for Liu Wei Di Huag Wan (육미지황환)",
-    "answer": "Spleen Qi deficiency with dampness accumulation, indigestion, loose stools, or diarrhea"
+    "answer": "Spleen Qi deficiency with dampness accumulation, indigestion, loose stools, or diarrhea",
+    "tag": "Formula"
   },
   {
     "id": 46,
     "question": "Dui Yao for draining empty Fire in Kidney Yin deficieincy",
-    "answer": "Zhi Mu (지모) and Huang Bai (황백)"
+    "answer": "Zhi Mu (지모) and Huang Bai (황백)",
+    "tag": "Herb"
   },
   {
     "id": 47,
-    "question": "Strongly releases the exterior and expels wind-cold through diaphoresis; Ma Huang (마황) opens pores while Gui Zhi (계지) warms and regulates Wei Qi.",
-    "answer": "Ma Huang (마황) + Gui Zhi (계지)"
+    "question": "Primary function of Ma Huang (마황) + Gui Zhi (계지)",
+    "answer": "Strongly releases the exterior and expels wind-cold through diaphoresis; Ma Huang (마황) opens pores while Gui Zhi (계지) warms and regulates Wei Qi.",
+    "tag": "Herb"
   },
   {
     "id": 48,
-    "question": "Harmonizes Ying and Wei; Gui Zhi (계지) warms and disperses cold, while Shao Yao (작약) softens the Liver, tonifies blood, and relieves pain.",
-    "answer": "Gui Zhi (계지) + Shao Yao (작약 / 백작약)"
+    "question": "Gui Zhi (계지) + Shao Yao (작약 / 백작약)",
+    "answer": "Harmonizes Ying and Wei; Gui Zhi (계지) warms and disperses cold, while Shao Yao (작약) softens the Liver, tonifies blood, and relieves pain.",
+    "tag": "Herb"
   },
   {
     "id": 49,
-    "question": "Synergistic duo to dispel external wind pathogens.",
-    "answer": "Jing Jie (형개) + Fang Feng (방풍)"
+    "question": "Jing Jie (형개) + Fang Feng (방풍)",
+    "answer": "Synergistic duo to dispel external wind pathogens.",
+    "tag": "Herb"
   },
   {
     "id": 50,
-    "question": "Expels wind-damp to alleviate pain; Qiang Huo (강활) addresses the upper body while Du Huo (독활) addresses the lower body.",
-    "answer": "Qiang Huo (강활) + Du Huo (독활)"
+    "question": "Qiang Huo (강활) + Du Huo (독활)",
+    "answer": "Expels wind-damp to alleviate pain; Qiang Huo (강활) addresses the upper body while Du Huo (독활) addresses the lower body.",
+    "tag": "Herb"
   },
   {
     "id": 51,
-    "question": "Shi Gao (석고) clears high Qi-level fire, while Zhi Mu (지모) clears heat and protects/generates body fluids",
-    "answer": "Shi Gao (석고) + Zhi Mu (지모)"
+    "question": "Shi Gao (석고) + Zhi Mu (지모)",
+    "answer": "Shi Gao (석고) clears high Qi-level fire, while Zhi Mu (지모) clears heat and protects/generates body fluids",
+    "tag": "Herb"
   },
   {
     "id": 52,
-    "question": "Clears deficiency fire and drains steaming bone heat in the Lower Jiao without injuring Yin.",
-    "answer": "Zhi Mu (지모) + Huang Bai (황백)"
+    "question": "Zhi Mu (지모) + Huang Bai (황백)",
+    "answer": "Clears deficiency fire and drains steaming bone heat in the Lower Jiao without injuring Yin.",
+    "tag": "Herb"
   },
   {
     "id": 53,
-    "question": "Drains fire, clears upper and middle jiao heat, and dries inflammatory damp-heat.",
-    "answer": "Huang Qin (황금) + Huang Lian (황련)"
+    "question": "Huang Qin (황금) + Huang Lian (황련)",
+    "answer": "Drains fire, clears upper and middle jiao heat, and dries inflammatory damp-heat.",
+    "tag": "Herb"
   },
   {
     "id": 54,
-    "question": "Clears heat and resolves toxicity; acts as a broad-spectrum natural anti-infective pair in epidemic and Warm diseases.",
-    "answer": "Jin Yin Hua (금은화) + Lian Qiao (연교)"
+    "question": "Jin Yin Hua (금은화) + Lian Qiao (연교)",
+    "answer": "Clears heat and resolves toxicity; acts as a broad-spectrum natural anti-infective pair in epidemic and Warm diseases.",
+    "tag": "Herb"
   },
   {
     "id": 55,
-    "question": "Drains heat and purges accumulation to relieve severe constipation.",
-    "answer": "Da Huang (대황) + Mang Xiao (망초)"
+    "question": "Da Huang (대황) + Mang Xiao (망초)",
+    "answer": "Drains heat and purges accumulation to relieve severe constipation.",
+    "tag": "Herb"
   },
   {
     "id": 56,
-    "question": "Strongly reinforces primal Qi, augments Wei Qi, and raises sunken Yang.",
-    "answer": "Ren Shen (인삼) + Huang Qi (황기)"
+    "question": "Ren Shen (인삼) + Huang Qi (황기)",
+    "answer": "Strongly reinforces primal Qi, augments Wei Qi, and raises sunken Yang.",
+    "tag": "Herb"
   },
   {
     "id": 57,
-    "question": "Tonifies Qi and strengthens the Spleen to dry dampness.",
-    "answer": "Ren Shen (인삼) + Bai Zhu (백출)"
+    "question": "Ren Shen (인삼) + Bai Zhu (백출)",
+    "answer": "Tonifies Qi and strengthens the Spleen to dry dampness.",
+    "tag": "Herb"
   },
   {
     "id": 58,
-    "question": "Foundational pair to bolster Spleen function while draining accumulated dampness.",
-    "answer": "Bai Zhu (백출) + Fu Ling (복령)"
+    "question": "Bai Zhu (백출) + Fu Ling (복령)",
+    "answer": "Foundational pair to bolster Spleen function while draining accumulated dampness.",
+    "tag": "Herb"
   },
   {
     "id": 59,
-    "question": "Dang Gui (당귀) tonifies and moistens blood, while Chuan Xiong (천궁) moves blood and promotes Qi circulation.",
-    "answer": "Dang Gui (당귀) + Chuan Xiong (천궁)"
+    "question": "Dang Gui (당귀) + Chuan Xiong (천궁)",
+    "answer": "Dang Gui (당귀) tonifies and moistens blood, while Chuan Xiong (천궁) moves blood and promotes Qi circulation.",
+    "tag": "Herb"
   },
   {
     "id": 60,
-    "question": "Foundational synergy for generating and deeply replenishing blood.",
-    "answer": "Shu Di Huang (숙지황) + Dang Gui (당귀)"
+    "question": "Shu Di Huang (숙지황) + Dang Gui (당귀)",
+    "answer": "Foundational synergy for generating and deeply replenishing blood.",
+    "tag": "Herb"
   },
   {
     "id": 61,
-    "question": "Primary pair to invigorate blood circulation and transform blood stasis.",
-    "answer": "Tao Ren (도인) + Hong Hua (홍화)"
+    "question": "Tao Ren (도인) + Hong Hua (홍화)",
+    "answer": "Primary pair to invigorate blood circulation and transform blood stasis.",
+    "tag": "Herb"
   },
   {
     "id": 62,
-    "question": "Cools blood and arrests bleeding, especially in the lower digestive and urinary tracts.",
-    "answer": "Di Yu (지유) + Huai Hua (괴화)"
+    "question": "Di Yu (지유) + Huai Hua (괴화)",
+    "answer": "Cools blood and arrests bleeding, especially in the lower digestive and urinary tracts.",
+    "tag": "Herb"
   },
   {
     "id": 63,
-    "question": "Chai Hu (시호) spreads constrained Liver Qi, while Bai Shao (백작약) softens the Liver and preserves Yin.",
-    "answer": "Chai Hu (시호) + Bai Shao (백작약)"
+    "question": "Primary function of Chai Hu (시호) + Bai Shao (백작약)",
+    "answer": "Chai Hu (시호) spreads constrained Liver Qi, while Bai Shao (백작약) softens the Liver and preserves Yin.",
+    "tag": "Herb"
   },
   {
     "id": 64,
-    "question": "Relieves food stagnation; Shan Zha (산사) digests meats and fats, while Shen Qu (신곡) and Mai Ya (맥아) digest grains and starches.",
-    "answer": "Shan Zha (산사) + Shen Qu (신곡) (± Mai Ya / 맥아)"
+    "question": "Shan Zha (산사) + Shen Qu (신곡) (± Mai Ya / 맥아)",
+    "answer": "Relieves food stagnation; Shan Zha (산사) digests meats and fats, while Shen Qu (신곡) and Mai Ya (맥아) digest grains and starches.",
+    "tag": "Herb"
   },
   {
     "id": 65,
-    "question": "Harmonizes the Middle Jiao, resolves dampness, and regulates gastrointestinal Qi.",
-    "answer": "Mu Xiang (목향) + Sha Ren (사인) / Bing Lang (빈랑):"
+    "question": "Mu Xiang (목향) + Sha Ren (사인) / Bing Lang (빈랑):",
+    "answer": "Harmonizes the Middle Jiao, resolves dampness, and regulates gastrointestinal Qi.",
+    "tag": "Herb"
   },
   {
     "id": 66,
-    "question": "Strengthens sinews and bones by tonifying the Liver and Kidneys to alleviate lower back and joint pain.",
-    "answer": "Du Zhong (두충) + Xu Duan (속단)"
+    "question": "Du Zhong (두충) + Xu Duan (속단)",
+    "answer": "Strengthens sinews and bones by tonifying the Liver and Kidneys to alleviate lower back and joint pain.",
+    "tag": "Herb"
   },
   {
     "id": 67,
-    "question": "Anchors floating Yang, calms the spirit, and secures essence/fluids.",
-    "answer": "Long Gu (용골) + Mu Li (모려)"
+    "question": "Long Gu (용골) + Mu Li (모려)",
+    "answer": "Anchors floating Yang, calms the spirit, and secures essence/fluids.",
+    "tag": "Herb"
   },
   {
     "id": 68,
-    "question": "Harmonizes the Stomach, transforms phlegm, and stops nausea/vomiting.",
-    "answer": "Ban Xia (반하) + Sheng Jiang (생강)"
+    "question": "Ban Xia (반하) + Sheng Jiang (생강)",
+    "answer": "Harmonizes the Stomach, transforms phlegm, and stops nausea/vomiting.",
+    "tag": "Herb"
   },
   {
     "id": 69,
     "question": "Composed of Gui Zhi (계지), Shao Yao (작약 / 백작약), Sheng Jiang (생강), Da Zao (대조), and Zhi Gan Cao (감초 / 자감초), it warms and disperses pathogenic wind-cold while harmonizing Ying and Wei.",
-    "answer": "Gui Zhi Tang (계지탕)"
+    "answer": "Gui Zhi Tang (계지탕)",
+    "tag": "Formula"
   },
   {
     "id": 70,
     "question": "Composed of Ren Shen (인삼), Bai Zhu (백출), Fu Ling (복령), and Gan Cao (감초), it tonifies Spleen and Stomach Qi while resolving dampness.",
-    "answer": "Si Jun Zi Tang (사군자탕)"
+    "answer": "Si Jun Zi Tang (사군자탕)",
+    "tag": "Formula"
   },
   {
     "id": 71,
     "question": "Composed of Shu Di Huang (숙지황), Bai Shao (백작약), Dang Gui (당귀), and Chuan Xiong (천궁), it nourishes Liver blood and promotes blood circulation without causing stagnation.",
-    "answer": "Si Wu Tang (사물탕)"
+    "answer": "Si Wu Tang (사물탕)",
+    "tag": "Formula"
   },
   {
     "id": 72,
     "question": "Composed of Ban Xia (반하), Chen Pi (진피), Fu Ling (복령), and Zhi Gan Cao (자감초), it dries dampness, transforms phlegm, and harmonizes the Stomach.",
-    "answer": "Er Chen Tang (이진탕)"
+    "answer": "Er Chen Tang (이진탕)",
+    "tag": "Formula"
   },
   {
     "id": 73,
     "question": "Composed of Cang Zhu (창출), Hou Po (후박), Chen Pi (진피), and Zhi Gan Cao (자감초), it dries dampness, moves Qi, and promotes Spleen transportive function.",
-    "answer": "Ping Wei San (평위산)"
+    "answer": "Ping Wei San (평위산)",
+    "tag": "Formula"
   },
   {
     "id": 74,
     "question": "Composed of Shu Di Huang (숙지황), Shan Zhu Yu (산수유), Shan Yao (산약), Ze Xie (택사), Mu Dan Pi (목단피), and Fu Ling (복령), it nourishes Liver and Kidney Yin.",
-    "answer": "Liu Wei Di Huang Wan (육미지황환)"
+    "answer": "Liu Wei Di Huang Wan (육미지황환)",
+    "tag": "Formula"
   },
   {
     "id": 75,
     "question": "Composed of Huang Lian (황련), Huang Qin (황금), Huang Bai (황백), and Zhi Zi (치자), it drains fire and resolves toxicity from all three Jiaos.",
-    "answer": "Huang Lian Jie Du Tang (황련해독탕)"
+    "answer": "Huang Lian Jie Du Tang (황련해독탕)",
+    "tag": "Formula"
   },
   {
     "id": 76,
     "question": "Composed of Xing Ren (행인), Zi Su Ye (자소엽), Qian Hu (전호), Jie Geng (길경), Zhi Ke (지각), Ban Xia (반하), Chen Pi (진피), Fu Ling (복령), Sheng Jiang (생강), Da Zao (대조), and Gan Cao (감초), it gently disperses cool-dryness, transforms phlegm, and directs Lung Qi downward.",
-    "answer": "Xing Su San (행소산)"
+    "answer": "Xing Su San (행소산)",
+    "tag": "Formula"
   },
   {
     "id": 77,
     "question": "Composed of Ze Xie (택사), Fu Ling (복령), Zhu Ling (저령), Bai Zhu (백출), and Gui Zhi (계지), it promotes urination, leaches out dampness, and warms Yang to transform Qi.",
-    "answer": "Wu Ling San (오령산)"
+    "answer": "Wu Ling San (오령산)",
+    "tag": "Formula"
   },
   {
     "id": 78,
     "question": "Composed of Fu Ling (복령), Gui Zhi (계지), Bai Zhu (백출), and Zhi Gan Cao (자감초), it warms the spleen Yang to transform phlegm and fluids",
-    "answer": "Ling Gui Zhu Gan Tang (령계출감탕)"
+    "answer": "Ling Gui Zhu Gan Tang (령계출감탕)",
+    "tag": "Formula"
   },
   {
     "id": 79,
     "question": "Composed of Shu Di Huang (숙지황), Shan Zhu Yu (산수유), Shan Yao (산약), Ze Xie (택사), Mu Dan Pi (목단피), and Fu Ling (복령), it nourishes Kidney and Liver Yin using three tonifiers paired with three drainers.",
-    "answer": "Liu Wei Di Huang Wan (육미지황환)"
+    "answer": "Liu Wei Di Huang Wan (육미지황환)",
+    "tag": "Formula"
   },
   {
     "id": 80,
     "question": "Composed of Liu Wei Di Huang Wan plus Wu Wei Zi (오미자), it nourishes Kidney Yin and astringes Lung Qi to relieve chronic wheezing and cough.",
-    "answer": "Du Qi Wan (두기환)"
+    "answer": "Du Qi Wan (두기환)",
+    "tag": "Formula"
   },
   {
     "id": 81,
     "question": "Composed of Liu Wei Di Huang Wan plus Gou Qi Zi (구기자) and Ju Hua (국화), it enriches Liver and Kidney Yin to improve visual acuity and clear dry, tired eyes.",
-    "answer": "Qi Ju Di Huang Wan (기국지황환)"
+    "answer": "Qi Ju Di Huang Wan (기국지황환)",
+    "tag": "Formula"
   },
   {
     "id": 82,
     "question": "Composed of Liu Wei Di Huang Wan plus Zhi Mu (지모) and Huang Bai (황백), it clears empty-fire and drains damp-heat arising from Liver and Kidney Yin deficiency.",
-    "answer": "Zhi Bai Di Huang Wan (지백지황환)"
+    "answer": "Zhi Bai Di Huang Wan (지백지황환)",
+    "tag": "Formula"
   },
   {
     "id": 83,
     "question": "Composed of Shu Di Huang (숙지황), Shan Zhu Yu (산수유), Shan Yao (산약), Gou Qi Zi (구기자), Tu Si Zi (토사자), Huai Niu Xi (우슬), Lu Jiao Jiao (녹각교), and Gui Ban (구판), it purely tonifies Kidney Yin and enriches Essence without draining herbs.",
-    "answer": "Zuo Gui Wan (좌귀완)"
+    "answer": "Zuo Gui Wan (좌귀완)",
+    "tag": "Formula"
   },
   {
     "id": 84,
     "question": "Composed of Shu Di Huang (숙지황), Shan Yao (산약), Shan Zhu Yu (산수유), Gou Qi Zi (구기자), Fu Ling (복령), and Zhi Gan Cao (자감초), it gently nourishes Kidney Yin and fluids without sedating components.",
-    "answer": "Zuo Gui Yin (좌귀음)"
+    "answer": "Zuo Gui Yin (좌귀음)",
+    "tag": "Formula"
   },
   {
     "id": 85,
     "question": "Composed of Shu Di Huang (숙지황), Gui Ban (구판), Zhi Mu (지모), and Huang Bai (황백), it strongly nourishes Kidney Yin and heavily descends surging empty-fire.",
-    "answer": "Da Bu Yin Wan (대보음환)"
+    "answer": "Da Bu Yin Wan (대보음환)",
+    "tag": "Formula"
   },
   {
     "id": 86,
     "question": "Composed of Sheng Di Huang (생지황), Mai Men Dong (맥문동), Sha Shen (사삼), Dang Gui (당귀), Gou Qi Zi (구기자), and Chuan Lian Zi (천련자), it nourishes Liver and Kidney Yin while spreading constrained Liver Qi to relieve hypochondriac pain and acid reflux.",
-    "answer": "Yi Guan Jian (일관전)"
+    "answer": "Yi Guan Jian (일관전)",
+    "tag": "Formula"
   },
   {
     "id": 87,
     "question": "Composed of Nu Zhen Zi (여정자) and Han Lian Cao / Mo Han Lian (한련초), it gently enriches Liver and Kidney Yin to cool the blood and prevent premature graying of hair.",
-    "answer": "Er Zhi Wan (이지환)"
+    "answer": "Er Zhi Wan (이지환)",
+    "tag": "Formula"
   },
   {
     "id": 88,
     "question": "Composed of Bai He (백합), Sheng Di Huang (생지황), Shu Di Huang (숙지황), Mai Men Dong (맥문동), Xuan Shen (현삼), Bei Mu (패모), Jie Geng (길경), Dang Gui (당귀), Bai Shao (백작약), and Gan Cao (감초), it nourishes Lung and Kidney Yin, clears heat, and stops chronic coughing with blood-streaked sputum.",
-    "answer": "Bai He Gu Jin Tang (백합고금탕)"
+    "answer": "Bai He Gu Jin Tang (백합고금탕)",
+    "tag": "Formula"
   },
   {
     "id": 89,
     "question": "Composed of Mu Li (모려), Huang Qi (황기), Ma Huang Gen (마황근), and Fu Xiao Mai (부소맥), it tonifies Qi, nourishes Yin, and secures the exterior to stop profuse spontaneous sweating and night sweats.",
-    "answer": "Mu Li San (모려산)"
+    "answer": "Mu Li San (모려산)",
+    "tag": "Formula"
   },
   {
     "id": 90,
     "question": "Composed of Ying Su Ke (앵속각), Rou Dou Kou (육두구), He Zi (가자), Ren Shen (인삼), Bai Zhu (백출), Dang Gui (당귀), Bai Shao (백작약), Rou Gui (육계), Mu Xiang (목향), and Zhi Gan Cao (자감초), it warms the Middle Jiao, tonifies Spleen and Kidneys, and astringes the intestines to treat chronic, unremitting diarrhea or rectal prolapse.",
-    "answer": "Zhen Ren Yang Zang Tang (진인양장탕)"
+    "answer": "Zhen Ren Yang Zang Tang (진인양장탕)",
+    "tag": "Formula"
   },
   {
     "id": 91,
     "question": "Composed of Bu Gu Zhi (보골지), Rou Dou Kou (육두구), Wu Wei Zi (오미자), Wu Zhu Yu (오수유), Sheng Jiang (생강), and Da Zao (대조), it warms Kidney and Spleen Yang to bind the intestines and stop daybreak/cock-crow diarrhea.",
-    "answer": "Si Shen Wan (사신환)"
+    "answer": "Si Shen Wan (사신환)",
+    "tag": "Formula"
   },
   {
     "id": 92,
     "question": "Composed of Sha Yuan Zi (사원자), Qian Shi (검실), Lian Zi (연자), Lian Xu (연수), Duan Long Gu (단용골), and Duan Mu Li (단모려), it tonifies the Kidneys and astringes Essence to stop nocturnal emissions, spermatorrhea, and premature ejaculation.",
-    "answer": "Jin Suo Gu Jing Wan (금쇄고정환)"
+    "answer": "Jin Suo Gu Jing Wan (금쇄고정환)",
+    "tag": "Formula"
   },
   {
     "id": 93,
     "question": "Composed of Sang Piao Xiao (상표소), Yuan Zhi (원지), Shi Chang Pu (석창포), Fu Shen (복신), Long Gu (용골), Ren Shen (인삼), Dang Gui (당귀), and Gui Ban (구판), it regulates Heart and Kidney communication, astringes Essence, and stops frequent urination, enuresis, or cloudy urine.",
-    "answer": "Sang Piao Xiao San (상표소산)"
+    "answer": "Sang Piao Xiao San (상표소산)",
+    "tag": "Formula"
   },
   {
     "id": 94,
     "question": "Composed of Tu Si Zi (토사자), Sang Ji Sheng (상기생), Xu Duan (속단), and E Jiao (아교), it strengthens the Kidneys, secures the Chong and Ren channels, and calms the fetus to prevent threatened miscarriage.",
-    "answer": "Shou Tai Wan (수태환)"
+    "answer": "Shou Tai Wan (수태환)",
+    "tag": "Formula"
   },
   {
     "id": 95,
     "question": "Composed of Gui Ban (구판), Bai Shao (백작약), Huang Qin (황금), Huang Bai (황백), Chun Gen Pi (춘근피), and Xiang Fu Tan (향부탄), it nourishes Yin, clears heat, and astringes channels to stop uterine bleeding (Beng Lou) driven by Yin deficiency heat.",
-    "answer": "Gu Jing Wan (고경환)"
+    "answer": "Gu Jing Wan (고경환)",
+    "tag": "Formula"
   },
   {
     "id": 96,
     "question": "Composed of Bai Zhu (백출), Shan Yao (산약), Ren Shen (인삼), Bai Shao (백작약), Che Qian Zi (차전자), Cang Zhu (창출), Chen Pi (진피), Jing Jie Sui (형개수), Chai Hu (시호), and Gan Cao (감초), it tonifies Spleen Qi, transforms dampness, and arrests profuse, odorless white vaginal discharge.",
-    "answer": "Wan Dai Tang (완대탕)"
+    "answer": "Wan Dai Tang (완대탕)",
+    "tag": "Formula"
   },
   {
     "id": 97,
     "question": "Composed of Sheng Di Huang (생지황), Ren Shen (인삼), Tian Men Dong (천문동), Mai Men Dong (맥문동), Xuan Shen (현삼), Dan Shen (단삼), Fu Ling (복령), Yuan Zhi (원지), Dang Gui (당귀), Wu Wei Zi (오미자), Bai Zi Ren (백자인), Suan Zao Ren (산조인), and Jie Geng (길경), it enriches the Yin, nourishes Heart blood, clears heat, and calms the Shen to treat insomnia, forgetfulness, and palpitations caused by Heart and Kidney Yin deficiency with deficiency-heat.",
-    "answer": "Tian Wang Bu Xin Dan (천왕보심단)"
+    "answer": "Tian Wang Bu Xin Dan (천왕보심단)",
+    "tag": "Formula"
   },
   {
     "id": 98,
     "question": "Composed of Suan Zao Ren (산조인), Fu Ling (복령), Zhi Mu (지모), Chuan Xiong (천궁), and Gan Cao (감초), it nourishes Liver blood, clears deficiency-heat, and calms the Shen to treat irritability, insomnia, and night sweats caused by Liver blood deficiency and deficiency fire.",
-    "answer": "Suan Zao Ren Tang (산조인탕)"
+    "answer": "Suan Zao Ren Tang (산조인탕)",
+    "tag": "Formula"
   },
   {
     "id": 99,
     "question": "Composed of Huang Lian (황련), Huang Qin (황금), E Jiao (아교), Bai Shao (백작약), and Ji Zi Huang / Egg yolk (계자황), it enriches Kidney Yin and drains Heart fire to resolve severe irritability, insomnia, and palpitations caused by Heart-Kidney non-interaction (Shao Yin heat transformation).",
-    "answer": "Huang Lian E Jiao Tang (황련아교탕)"
+    "answer": "Huang Lian E Jiao Tang (황련아교탕)",
+    "tag": "Formula"
   },
   {
     "id": 100,
     "question": "Composed of Gan Cao (감초), Xiao Mai / Fu Xiao Mai (소맥 / 부소맥), and Da Zao (대조), it nourishes Heart Yin, tonifies Spleen Qi, and harmonizes the Middle Jiao to treat emotional instability, frequent crying, and restless organ disorder (Zang Zao).",
-    "answer": "Gan Mai Da Zao Tang (감맥대조탕)"
+    "answer": "Gan Mai Da Zao Tang (감맥대조탕)",
+    "tag": "Formula"
   },
   {
     "id": 101,
-    "question": "Nourishes Kidney Yin, enriches essence, and tonifies blood.",
-    "answer": "Di Huang (지황 / Rehmanniae radix praeparata)"
+    "question": "Herb. Nourishes Kidney Yin, enriches essence, and tonifies blood.",
+    "answer": "Di Huang (지황 / Rehmanniae radix praeparata)",
+    "tag": "Herb"
   },
   {
     "id": 102,
-    "question": "Tonifies Liver and Kidney Yin and Essence to improve vision.",
-    "answer": "Gou Qi Zi (구기자 / Lycii fructus)"
+    "question": "Herb. Tonifies Liver and Kidney Yin and Essence to improve vision.",
+    "answer": "Gou Qi Zi (구기자 / Lycii fructus)",
+    "tag": "Herb"
   },
   {
     "id": 103,
-    "question": "Disperses wind-heat and cools the Liver to benefit the eyes.",
-    "answer": "Ju Hua (국화 / Chrysanthemi flos)"
+    "question": "Herb. Disperses wind-heat and cools the Liver to benefit the eyes.",
+    "answer": "Ju Hua (국화 / Chrysanthemi flos)",
+    "tag": "Herb"
   },
   {
     "id": 104,
-    "question": "Clears heat, drains fire, and nourishes Yin to protect fluids.",
-    "answer": "Zhi Mu (지모 / Anemarrhenae rhizoma)"
+    "question": "Herb. Clears heat, drains fire, and nourishes Yin to protect fluids.",
+    "answer": "Zhi Mu (지모 / Anemarrhenae rhizoma)",
+    "tag": "Herb"
   },
   {
     "id": 105,
-    "question": "Clears empty-fire and drains damp-heat in the Lower Jiao.",
-    "answer": "Huang Bai (황백 / Phellodendri cortex)"
+    "question": "Herb. Clears empty-fire and drains damp-heat in the Lower Jiao.",
+    "answer": "Huang Bai (황백 / Phellodendri cortex)",
+    "tag": "Herb"
   },
   {
     "id": 106,
-    "question": "Nourishes Lung Yin, clears heat, and moistens the Lungs.",
-    "answer": "Bai He (백합 / Lilii bulbus)"
+    "question": "Herb. Nourishes Lung Yin, clears heat, and moistens the Lungs.",
+    "answer": "Bai He (백합 / Lilii bulbus)",
+    "tag": "Herb"
   },
   {
     "id": 107,
-    "question": "Subdues floating Yang, anchors the Shen, and astringes sweat and essence.",
-    "answer": "Mu Li (모려 / Ostreae concha)"
+    "question": "Herb. Subdues floating Yang, anchors the Shen, and astringes sweat and essence.",
+    "answer": "Mu Li (모려 / Ostreae concha)",
+    "tag": "Herb"
   },
   {
     "id": 108,
-    "question": "Tonifies Kidney Yang and binds essence to stop frequent urination or leakage.",
-    "answer": "Sang Piao Xiao (상표소 / Mantidis ootheca)"
+    "question": "Herb. Tonifies Kidney Yang and binds essence to stop frequent urination or leakage.",
+    "answer": "Sang Piao Xiao (상표소 / Mantidis ootheca)",
+    "tag": "Herb"
   },
   {
     "id": 109,
-    "question": "Nourishes Heart and Liver blood, stabilizes Yin and Qi, and calms the Shen.",
-    "answer": "Suan Zao Ren (산조인 / Ziziphi spinosae semen)"
+    "question": "Herb. Nourishes Heart and Liver blood, stabilizes Yin and Qi, and calms the Shen.",
+    "answer": "Suan Zao Ren (산조인 / Ziziphi spinosae semen)",
+    "tag": "Herb"
   },
   {
     "id": 110,
-    "question": "Drains fire, clears Heart and Stomach heat, and eliminates toxicity.",
-    "answer": "Huang Lian (황련 / Coptidis rhizoma)"
+    "question": "Herb. Drains fire, clears Heart and Stomach heat, and eliminates toxicity.",
+    "answer": "Huang Lian (황련 / Coptidis rhizoma)",
+    "tag": "Herb"
   },
   {
     "id": 111,
-    "question": "Nourishes Liver blood, enriches essence, and moistens dryness.",
-    "answer": "E Jiao (아교 / Asini corii colla)"
+    "question": "Herb. Nourishes Liver blood, enriches essence, and moistens dryness.",
+    "answer": "E Jiao (아교 / Asini corii colla)",
+    "tag": "Herb"
   },
   {
     "id": 112,
-    "question": "Tonifies Spleen Qi, harmonizes other herbs, and moderates tension.",
-    "answer": "Gan Cao (감초 / Glycyrrhizae radix)"
+    "question": "Herb. Tonifies Spleen Qi, harmonizes other herbs, and moderates tension.",
+    "answer": "Gan Cao (감초 / Glycyrrhizae radix)",
+    "tag": "Herb"
   },
   {
     "id": 113,
-    "question": "Nourishes Heart Yin, tonifies Spleen Qi, and calms the Shen.",
-    "answer": "Xiao Mai (소맥 / Tritici fructus levis)"
+    "question": "Herb. Nourishes Heart Yin, tonifies Spleen Qi, and calms the Shen.",
+    "answer": "Xiao Mai (소맥 / Tritici fructus levis)",
+    "tag": "Herb"
   },
   {
     "id": 114,
-    "question": "Tonifies Spleen Qi, nourishes blood, and harmonizes the Middle Jiao.",
-    "answer": "Da Zao (대조 / Jujubae fructus)"
+    "question": "Herb. Tonifies Spleen Qi, nourishes blood, and harmonizes the Middle Jiao.",
+    "answer": "Da Zao (대조 / Jujubae fructus)",
+    "tag": "Herb"
   },
   {
     "id": 115,
-    "question": "Releases exterior wind-cold by warming, indicated for exterior cold with sweating and disharmony between Ying and Wei.",
-    "answer": "Gui Zhi Tang (계지탕)"
+    "question": "Formula. Releases exterior wind-cold by warming, indicated for exterior cold with sweating and disharmony between Ying and Wei.",
+    "answer": "Gui Zhi Tang (계지탕)",
+    "tag": "Formula"
   },
   {
     "id": 116,
-    "question": "Tonifies Lung and Spleen Qi; indicated for Spleen-Stomach Qi deficiency, fatigue, poor appetite, and loose stools.",
-    "answer": "Si Jun Zi Tang (사군자탕)"
+    "question": "Formula. Tonifies Lung and Spleen Qi; indicated for Spleen-Stomach Qi deficiency, fatigue, poor appetite, and loose stools.",
+    "answer": "Si Jun Zi Tang (사군자탕)",
+    "tag": "Formula"
   },
   {
     "id": 117,
-    "question": "Tonifies and regulates Liver blood; indicated for blood deficiency, pale complexion, dizziness, and irregular menstruation.",
-    "answer": "Si Wu Tang (사물탕)"
+    "question": "Formula. Tonifies and regulates Liver blood; indicated for blood deficiency, pale complexion, dizziness, and irregular menstruation.",
+    "answer": "Si Wu Tang (사물탕)",
+    "tag": "Formula"
   },
   {
     "id": 118,
-    "question": "Dries dampness and transforms phlegm; indicated for damp-phlegm cough with copious white sputum, nausea, and vomiting.",
-    "answer": "Er Chen Tang (이진탕)"
+    "question": "Formula. Dries dampness and transforms phlegm; indicated for damp-phlegm cough with copious white sputum, nausea, and vomiting.",
+    "answer": "Er Chen Tang (이진탕)",
+    "tag": "Formula"
   },
   {
     "id": 119,
-    "question": "Dries dampness and harmonizes the Stomach; indicated for dampness accumulation in the digestive system with epigastric fullness and loose stools.",
-    "answer": "Ping Wei San (평위산)"
+    "question": "Formula. Dries dampness and harmonizes the Stomach; indicated for dampness accumulation in the digestive system with epigastric fullness and loose stools.",
+    "answer": "Ping Wei San (평위산)",
+    "tag": "Formula"
   },
   {
     "id": 120,
-    "question": "Drains fire and resolves toxicity; indicated for severe toxic heat, high fever, delirium, and inflammation across the triple burners.",
-    "answer": "Huang Lian Jie Du Tang (황련해독탕)"
+    "question": "Formula. Drains fire and resolves toxicity; indicated for severe toxic heat, high fever, delirium, and inflammation across the triple burners.",
+    "answer": "Huang Lian Jie Du Tang (황련해독탕)",
+    "tag": "Formula"
   },
   {
     "id": 121,
-    "question": "Tonifies Liver and Kidney Yin; indicated for lower back pain, knee weakness, tinnitus, dizziness, low libido, and seminal emission.",
-    "answer": "Liu Wei Di Huang Wan (육미지황환)"
+    "question": "Formula. Tonifies Liver and Kidney Yin; indicated for lower back pain, knee weakness, tinnitus, dizziness, low libido, and seminal emission.",
+    "answer": "Liu Wei Di Huang Wan (육미지황환)",
+    "tag": "Formula"
   },
   {
     "id": 122,
-    "question": "Nourishes Kidney Yin and grasps Lung Qi; indicated for chronic cough, wheezing, and lower back soreness due to Kidney Yin deficiency failing to grasp Qi.",
-    "answer": "Du Qi Wan (두기환)"
+    "question": "Formula. Nourishes Kidney Yin and grasps Lung Qi; indicated for chronic cough, wheezing, and lower back soreness due to Kidney Yin deficiency failing to grasp Qi.",
+    "answer": "Du Qi Wan (두기환)",
+    "tag": "Formula"
   },
   {
     "id": 123,
-    "question": "Nourishes Liver/Kidney Yin and clears Liver heat; indicated for dry eyes, blurry vision, photophobia, and eye fatigue.",
-    "answer": "Qi Ju Di Huang Wan (기국지황환)"
+    "question": "Formula. Nourishes Liver/Kidney Yin and clears Liver heat; indicated for dry eyes, blurry vision, photophobia, and eye fatigue.",
+    "answer": "Qi Ju Di Huang Wan (기국지황환)",
+    "tag": "Formula"
   },
   {
     "id": 124,
-    "question": "Enriches Yin and clears empty-heat/damp-heat; indicated for Kidney deficiency with steaming bone sensation, tidal fevers, night sweats, and premature ejaculation.",
-    "answer": "Zhi Bai Di Huang Wan (지백지황환)"
+    "question": "Formula. Enriches Yin and clears empty-heat/damp-heat; indicated for Kidney deficiency with steaming bone sensation, tidal fevers, night sweats, and premature ejaculation.",
+    "answer": "Zhi Bai Di Huang Wan (지백지황환)",
+    "tag": "Formula"
   },
   {
     "id": 125,
-    "question": "Strongly enriches True Yin and fills Essence (pure tonification); indicated for severe Kidney Yin/Essence exhaustion with dizziness, tinnitus, nocturnal emissions, and lumbar soreness.",
-    "answer": "Zuo Gui Wan (좌귀완)"
+    "question": "Formula. Strongly enriches True Yin and fills Essence (pure tonification); indicated for severe Kidney Yin/Essence exhaustion with dizziness, tinnitus, nocturnal emissions, and lumbar soreness.",
+    "answer": "Zuo Gui Wan (좌귀완)",
+    "tag": "Formula"
   },
   {
     "id": 126,
-    "question": "Gently nourishes Kidney Yin and body fluids without sedating herbs; indicated for moderate Kidney Yin deficiency with minimal empty-heat.",
-    "answer": "Zuo Gui Yin (좌귀음)"
+    "question": "Formula. Gently nourishes Kidney Yin and body fluids without sedating herbs; indicated for moderate Kidney Yin deficiency with minimal empty-heat.",
+    "answer": "Zuo Gui Yin (좌귀음)",
+    "tag": "Formula"
   },
   {
     "id": 127,
-    "question": "Heavily tonifies Yin and descends intense deficiency fire; indicated for steaming bone fever, severe night sweats, tidal fevers, and coughing blood.",
-    "answer": "Da Bu Yin Wan (대보음환)"
+    "question": "Formula. Heavily tonifies Yin and descends intense deficiency fire; indicated for steaming bone fever, severe night sweats, tidal fevers, and coughing blood.",
+    "answer": "Da Bu Yin Wan (대보음환)",
+    "tag": "Formula"
   },
   {
     "id": 128,
-    "question": "Nourishes Liver/Kidney Yin while spreading constrained Liver Qi; indicated for hypochondriac pain, acid regurgitation, heartburn, and stomach upset from Liver Qi stagnation with Yin deficiency.",
-    "answer": "Yi Guan Jian (일관전)"
+    "question": "Formula. Nourishes Liver/Kidney Yin while spreading constrained Liver Qi; indicated for hypochondriac pain, acid regurgitation, heartburn, and stomach upset from Liver Qi stagnation with Yin deficiency.",
+    "answer": "Yi Guan Jian (일관전)",
+    "tag": "Formula"
   },
   {
     "id": 129,
-    "question": "Gently tonifies Liver/Kidney Yin and cools blood; indicated for premature graying of hair, dry eyes, and lower back weakness.",
-    "answer": "Er Zhi Wan (이지환)"
+    "question": "Formula. Gently tonifies Liver/Kidney Yin and cools blood; indicated for premature graying of hair, dry eyes, and lower back weakness.",
+    "answer": "Er Zhi Wan (이지환)",
+    "tag": "Formula"
   },
   {
     "id": 130,
-    "question": "Moistens Lung and Kidney Yin while clearing heat and resolving phlegm; indicated for chronic coughing with blood-streaked sputum, wheezing, and dry throat.",
-    "answer": "Bai He Gu Jin Tang (백합고금탕)"
+    "question": "Formula. Moistens Lung and Kidney Yin while clearing heat and resolving phlegm; indicated for chronic coughing with blood-streaked sputum, wheezing, and dry throat.",
+    "answer": "Bai He Gu Jin Tang (백합고금탕)",
+    "tag": "Formula"
   },
   {
     "id": 131,
-    "question": "Tonifies Qi, nourishes Yin, and secures the exterior; indicated for profuse spontaneous sweating (Qi deficiency) and night sweating (Yin deficiency).",
-    "answer": "Mu Li San (모려산):"
+    "question": "Formula. Tonifies Qi, nourishes Yin, and secures the exterior; indicated for profuse spontaneous sweating (Qi deficiency) and night sweating (Yin deficiency).",
+    "answer": "Mu Li San (모려산)",
+    "tag": "Formula"
   },
   {
     "id": 132,
-    "question": "Warms the Middle Jiao, tonifies Spleen/Kidneys, and binds the intestines; indicated for chronic, unremitting diarrhea, tenesmus, or rectal prolapse due to Spleen-Kidney Yang deficiency.",
-    "answer": "Zhen Ren Yang Zang Tang (진인양장탕)"
+    "question": "Formula. Warms the Middle Jiao, tonifies Spleen/Kidneys, and binds the intestines; indicated for chronic, unremitting diarrhea, tenesmus, or rectal prolapse due to Spleen-Kidney Yang deficiency.",
+    "answer": "Zhen Ren Yang Zang Tang (진인양장탕)",
+    "tag": "Formula"
   },
   {
     "id": 133,
-    "question": "Warms Kidney and Spleen Yang and binds the intestines; indicated for \"daybreak\" / \"cock-crow\" (5 AM) diarrhea with cold abdomen.",
-    "answer": "Si Shen Wan (사신환)"
+    "question": "Formula. Warms Kidney and Spleen Yang and binds the intestines; indicated for \"daybreak\" / \"cock-crow\" (5 AM) diarrhea with cold abdomen.",
+    "answer": "Si Shen Wan (사신환)",
+    "tag": "Formula"
   },
   {
     "id": 134,
-    "question": "Tonifies Kidneys and astringes Essence; indicated for spermatorrhea, unintended seminal discharge, nocturnal emissions, and premature ejaculation.",
-    "answer": "Jin Suo Gu Jing Wan (금쇄고정환)"
+    "question": "Formula. Tonifies Kidneys and astringes Essence; indicated for spermatorrhea, unintended seminal discharge, nocturnal emissions, and premature ejaculation.",
+    "answer": "Jin Suo Gu Jing Wan (금쇄고정환)",
+    "tag": "Formula"
   },
   {
     "id": 135,
-    "question": "Regulates Heart-Kidney communication and binds essence/fluids; indicated for frequent urination, enuresis, cloudy urine, and spermatorrhea.",
-    "answer": "Sang Piao Xiao San (상표소산)"
+    "question": "Formula. Regulates Heart-Kidney communication and binds essence/fluids; indicated for frequent urination, enuresis, cloudy urine, and spermatorrhea.",
+    "answer": "Sang Piao Xiao San (상표소산)",
+    "tag": "Formula"
   },
   {
     "id": 136,
-    "question": "Strengthens Kidneys and secures Chong/Ren channels; indicated for threatened miscarriage, restless fetus, lower back ache, and vaginal bleeding during pregnancy.",
-    "answer": "Shou Tai Wan (수태환)"
+    "question": "Formula. Strengthens Kidneys and secures Chong/Ren channels; indicated for threatened miscarriage, restless fetus, lower back ache, and vaginal bleeding during pregnancy.",
+    "answer": "Shou Tai Wan (수태환)",
+    "tag": "Formula"
   },
   {
     "id": 137,
-    "question": "Clears heat, enriches Yin, and stops uterine bleeding; indicated for continuous or profuse uterine bleeding (Beng Lou) driven by internal deficiency-heat.",
-    "answer": "Gu Jing Wan (고경환)"
+    "question": "Formula. Clears heat, enriches Yin, and stops uterine bleeding; indicated for continuous or profuse uterine bleeding (Beng Lou) driven by internal deficiency-heat.",
+    "answer": "Gu Jing Wan (고경환)",
+    "tag": "Formula"
   },
   {
     "id": 138,
-    "question": "Tonifies Spleen Qi, resolves dampness, and arrests discharge; indicated for profuse, thin, white/clear, odorless vaginal discharge due to Spleen Qi deficiency.",
-    "answer": "Wan Dai Tang (완대탕)"
+    "question": "Formula. Tonifies Spleen Qi, resolves dampness, and arrests discharge; indicated for profuse, thin, white/clear, odorless vaginal discharge due to Spleen Qi deficiency.",
+    "answer": "Wan Dai Tang (완대탕)",
+    "tag": "Formula"
   },
   {
     "id": 139,
-    "question": "Enriches Yin, clears deficiency-heat, and calms the Shen; indicated for insomnia, palpitations, anxiety, poor memory, and dream-disturbed sleep from Heart and Kidney Yin deficiency.",
-    "answer": "Tian Wang Bu Xin Dan (천왕보심단)"
+    "question": "Formula. Enriches Yin, clears deficiency-heat, and calms the Shen; indicated for insomnia, palpitations, anxiety, poor memory, and dream-disturbed sleep from Heart and Kidney Yin deficiency.",
+    "answer": "Tian Wang Bu Xin Dan (천왕보심단)",
+    "tag": "Formula"
   },
   {
     "id": 140,
-    "question": "Nourishes Liver/Heart blood and clears empty-heat; indicated for irritability, insomnia, night sweats, and restlessness from Liver blood deficiency.",
-    "answer": "Suan Zao Ren Tang (산조인탕)"
+    "question": "Formula. Nourishes Liver/Heart blood and clears empty-heat; indicated for irritability, insomnia, night sweats, and restlessness from Liver blood deficiency.",
+    "answer": "Suan Zao Ren Tang (산조인탕)",
+    "tag": "Formula"
   },
   {
     "id": 141,
-    "question": "Drains Heart fire and enriches Kidney Yin (restores Heart-Kidney communication); indicated for severe insomnia, extreme irritability, palpitations, and heat in the chest from Shao Yin heat transformation.",
-    "answer": "Huang Lian E Jiao Tang (황련아교탕)"
+    "question": "Formula. Drains Heart fire and enriches Kidney Yin (restores Heart-Kidney communication); indicated for severe insomnia, extreme irritability, palpitations, and heat in the chest from Shao Yin heat transformation.",
+    "answer": "Huang Lian E Jiao Tang (황련아교탕)",
+    "tag": "Formula"
   },
   {
     "id": 142,
-    "question": "Nourishes Heart Yin, tonifies Spleen Qi, and harmonizes the Middle Jiao; indicated for restless organ disorder (Zang Zao), emotional instability, frequent crying, and severe mood swings.",
-    "answer": "Gan Mai Da Zao Tang (감맥대조탕)"
+    "question": "Formula. Nourishes Heart Yin, tonifies Spleen Qi, and harmonizes the Middle Jiao; indicated for restless organ disorder (Zang Zao), emotional instability, frequent crying, and severe mood swings.",
+    "answer": "Gan Mai Da Zao Tang (감맥대조탕)",
+    "tag": "Formula"
   },
   {
     "id": 143,
-    "question": "Heavily tonifies Kidney Yin, enriches Essence (Jing), and builds Blood.",
-    "answer": "Shu Di Huang (숙지황)"
+    "question": "Herb. Heavily tonifies Kidney Yin, enriches Essence (Jing), and builds Blood.",
+    "answer": "Shu Di Huang (숙지황)",
+    "tag": "Herb"
   },
   {
     "id": 144,
-    "question": "Nourishes Blood, softens the Liver, and stabilizes Yin/fluids to alleviate spasms and pain.",
-    "answer": "Bai Shao / Shao Yao (작약 / 백작약)"
+    "question": "Herb. Nourishes Blood, softens the Liver, and stabilizes Yin/fluids to alleviate spasms and pain.",
+    "answer": "Bai Shao / Shao Yao (작약 / 백작약)",
+    "tag": "Herb"
   },
   {
     "id": 145,
-    "question": "Promotes urination to leach out dampness, strengthens the Spleen, and calms the Mind/Shen.",
-    "answer": "Fu Ling (복령)"
+    "question": "Herb. Promotes urination to leach out dampness, strengthens the Spleen, and calms the Mind/Shen.",
+    "answer": "Fu Ling (복령)",
+    "tag": "Herb"
   },
   {
     "id": 146,
-    "question": "Tonifies Spleen Qi and Yin while building the postnatal foundation that secures Kidney Essence.",
-    "answer": "Shan Yao (산약)"
+    "question": "Herb. Tonifies Spleen Qi and Yin while building the postnatal foundation that secures Kidney Essence.",
+    "answer": "Shan Yao (산약)",
+    "tag": "Herb"
   },
   {
     "id": 147,
-    "question": "Tonifies Liver and Kidney Yin while sourly astringing to prevent the leakage of Essence and body fluids.",
-    "answer": "Shan Zhu Yu (산수유)"
+    "question": "Herb. Tonifies Liver and Kidney Yin while sourly astringing to prevent the leakage of Essence and body fluids.",
+    "answer": "Shan Zhu Yu (산수유)",
+    "tag": "Herb"
   },
   {
     "id": 148,
-    "question": "Tonifies and warms the Blood while invigorating Blood circulation without causing stasis.",
-    "answer": "Dang Gui (당귀)"
+    "question": "Herb. Tonifies and warms the Blood while invigorating Blood circulation without causing stasis.",
+    "answer": "Dang Gui (당귀)",
+    "tag": "Herb"
   },
   {
     "id": 149,
-    "question": "Strongly tonifies Spleen Qi and dries dampness in the Middle Jiao.",
-    "answer": "Bai Zhu (백출)"
+    "question": "Herb. Strongly tonifies Spleen Qi and dries dampness in the Middle Jiao.",
+    "answer": "Bai Zhu (백출)",
+    "tag": "Herb"
   },
   {
     "id": 150,
-    "question": "Strongly tonifies primal Qi, augments Spleen and Lung Qi, and generates fluids.",
-    "answer": "Ren Shen (인삼)"
+    "question": "Herb. Strongly tonifies primal Qi, augments Spleen and Lung Qi, and generates fluids.",
+    "answer": "Ren Shen (인삼)",
+    "tag": "Herb"
   },
   {
     "id": 151,
-    "question": "Clears excess and deficiency heat, drains fire, and moistens dryness to protect body fluids.",
-    "answer": "Zhi Mu (지모)"
+    "question": "Herb. Clears excess and deficiency heat, drains fire, and moistens dryness to protect body fluids.",
+    "answer": "Zhi Mu (지모)",
+    "tag": "Herb"
   },
   {
     "id": 152,
-    "question": "Nourishes Kidney Yin, heavily anchors floating Yang, and strengthens bones and channels.",
-    "answer": "Gui Ban (구판)"
+    "question": "Herb. Nourishes Kidney Yin, heavily anchors floating Yang, and strengthens bones and channels.",
+    "answer": "Gui Ban (구판)",
+    "tag": "Herb"
   }
 ]

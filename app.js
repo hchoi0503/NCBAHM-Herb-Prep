@@ -6,6 +6,7 @@
   let correctCount = 0;
   let answeredCount = 0;
   let answered = false;
+  let selectedFilter = "all"; // "all" | "Herb" | "Formula"
 
   // ---------- DOM ----------
   const homeScreen = document.getElementById("home");
@@ -161,6 +162,27 @@
   }
 
   // ---------- Load questions ----------
+  function getFilteredQuestions() {
+    if (selectedFilter === "all") return allQuestions;
+    return allQuestions.filter((q) => q.tag === selectedFilter);
+  }
+
+  function updateAvailableCount() {
+    const pool = getFilteredQuestions();
+    if (allQuestions.length === 0) {
+      availableCountEl.textContent = "No questions found in questions.json";
+      return;
+    }
+    const label =
+      selectedFilter === "all"
+        ? "combined"
+        : selectedFilter.toLowerCase();
+    availableCountEl.textContent =
+      pool.length > 0
+        ? `${pool.length} ${label} question${pool.length === 1 ? "" : "s"} available`
+        : `No ${label} questions available`;
+  }
+
   async function loadQuestions() {
     try {
       const res = await fetch("questions.json");
@@ -168,10 +190,7 @@
       const data = await res.json();
       if (!Array.isArray(data)) throw new Error("questions.json must be an array");
       allQuestions = data;
-      availableCountEl.textContent =
-        data.length > 0
-          ? `${data.length} question${data.length === 1 ? "" : "s"} available`
-          : "No questions found in questions.json";
+      updateAvailableCount();
     } catch (err) {
       console.error(err);
       allQuestions = [];
@@ -181,13 +200,14 @@
 
   // ---------- Quiz flow ----------
   function startQuiz(count) {
-    if (allQuestions.length === 0) {
-      alert("No questions available. Add questions to questions.json.");
+    const pool = getFilteredQuestions();
+    if (pool.length === 0) {
+      alert("No questions available for this selection.");
       return;
     }
 
-    const take = Math.min(count, allQuestions.length);
-    quizQuestions = shuffle(allQuestions).slice(0, take);
+    const take = Math.min(count, pool.length);
+    quizQuestions = shuffle(pool).slice(0, take);
     currentIndex = 0;
     correctCount = 0;
     answeredCount = 0;
@@ -352,6 +372,16 @@
   }
 
   // ---------- Events ----------
+  document.querySelectorAll("[data-filter]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      selectedFilter = btn.dataset.filter;
+      document.querySelectorAll("[data-filter]").forEach((b) => {
+        b.classList.toggle("active", b === btn);
+      });
+      updateAvailableCount();
+    });
+  });
+
   document.querySelectorAll("[data-count]").forEach((btn) => {
     btn.addEventListener("click", () => {
       const count = parseInt(btn.dataset.count, 10);

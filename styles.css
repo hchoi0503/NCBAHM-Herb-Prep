@@ -274,6 +274,27 @@ h1 {
   gap: 0.65rem;
 }
 
+.filter-group {
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.btn-filter {
+  flex: 1;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  padding: 0.7rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.btn-filter.active {
+  background: #2a2410;
+  color: var(--primary);
+  border-color: var(--primary);
+  box-shadow: 0 0 10px rgba(201, 162, 39, 0.2);
+}
+
 .btn {
   display: block;
   width: 100%;
