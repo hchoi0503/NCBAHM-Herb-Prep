@@ -31,19 +31,28 @@ html {
 
 body {
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background-color: #050403;
+  background-color: #060504;
   background-image:
-    linear-gradient(
-      180deg,
-      rgba(8, 6, 4, 0.45) 0%,
-      rgba(10, 8, 6, 0.55) 50%,
-      rgba(5, 4, 3, 0.7) 100%
-    ),
-    url("bg.jpg");
-  background-size: cover;
-  background-position: center center;
+    /* soft gold glow from top */
+    radial-gradient(ellipse 120% 60% at 50% -10%, rgba(201, 162, 39, 0.12), transparent 55%),
+    /* deep red hint at bottom corners */
+    radial-gradient(ellipse 80% 40% at 10% 100%, rgba(120, 20, 20, 0.18), transparent 50%),
+    radial-gradient(ellipse 80% 40% at 90% 100%, rgba(120, 20, 20, 0.12), transparent 50%),
+    /* subtle star dots */
+    radial-gradient(1.5px 1.5px at 12% 18%, rgba(232, 224, 208, 0.45), transparent),
+    radial-gradient(1.5px 1.5px at 28% 42%, rgba(232, 224, 208, 0.3), transparent),
+    radial-gradient(1px 1px at 45% 12%, rgba(201, 162, 39, 0.5), transparent),
+    radial-gradient(1.5px 1.5px at 62% 55%, rgba(232, 224, 208, 0.35), transparent),
+    radial-gradient(1px 1px at 78% 22%, rgba(232, 224, 208, 0.4), transparent),
+    radial-gradient(1.5px 1.5px at 88% 68%, rgba(201, 162, 39, 0.35), transparent),
+    radial-gradient(1px 1px at 8% 72%, rgba(232, 224, 208, 0.25), transparent),
+    radial-gradient(1.5px 1.5px at 35% 85%, rgba(232, 224, 208, 0.3), transparent),
+    radial-gradient(1px 1px at 55% 38%, rgba(232, 224, 208, 0.35), transparent),
+    radial-gradient(1px 1px at 92% 40%, rgba(232, 224, 208, 0.25), transparent),
+    radial-gradient(1.5px 1.5px at 18% 55%, rgba(201, 162, 39, 0.3), transparent),
+    /* base void */
+    linear-gradient(180deg, #0c0a08 0%, #080706 50%, #050403 100%);
   background-attachment: fixed;
-  background-repeat: no-repeat;
   color: var(--text);
   min-height: 100dvh;
   line-height: 1.5;
@@ -71,6 +80,14 @@ body {
 header {
   text-align: center;
   padding-top: 0.5rem;
+}
+
+.sigil {
+  font-size: 1.35rem;
+  letter-spacing: 0.35em;
+  margin-bottom: 0.5rem;
+  opacity: 0.85;
+  filter: grayscale(0.15);
 }
 
 h1 {
@@ -146,13 +163,12 @@ h1 {
 
 /* Cards */
 .stats-card {
-  background: rgba(16, 14, 12, 0.88);
+  background: var(--surface);
   border: 1px solid var(--border-gold);
   border-radius: var(--radius);
   padding: 1.25rem 1.5rem;
   text-align: center;
   box-shadow: var(--shadow);
-  backdrop-filter: blur(8px);
 }
 
 .stat-label {
@@ -313,12 +329,11 @@ h1 {
 
 /* Question card */
 .question-card {
-  background: rgba(16, 14, 12, 0.88);
+  background: var(--surface);
   border: 1px solid var(--border-gold);
   border-radius: var(--radius);
   padding: 1.5rem 1.25rem;
   box-shadow: var(--shadow);
-  backdrop-filter: blur(8px);
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
