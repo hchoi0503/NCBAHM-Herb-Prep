@@ -20,6 +20,7 @@
 
   const progressText = document.getElementById("progress-text");
   const progressFill = document.getElementById("progress-fill");
+  const questionIntro = document.getElementById("question-intro");
   const questionText = document.getElementById("question-text");
   const optionsContainer = document.getElementById("options-container");
   const revealBtn = document.getElementById("reveal-btn");
@@ -130,6 +131,28 @@
     return Array.isArray(q.options) && q.options.length > 0;
   }
 
+  const QUESTION_INTROS = [
+    "The Emperor asks:",
+    "The Undying Emperor demands:",
+    "A Tech-Priest inquires:",
+    "The Inquisition probes:",
+    "A Commissar tests your faith:",
+    "The Chapter Librarian questions:",
+    "An Adept of Mars seeks knowledge:",
+    "The Ecclesiarchy examines you:",
+    "A Veteran Sergeant challenges:",
+    "The Ordo Hereticus asks:",
+    "A Magos Biologis queries:",
+    "The Imperial Creed tests you:",
+    "A Battle-Brother wonders:",
+    "The Schola Progenium examines:",
+    "An Interrogator demands:",
+  ];
+
+  function randomIntro() {
+    return QUESTION_INTROS[Math.floor(Math.random() * QUESTION_INTROS.length)];
+  }
+
   function showScreen(screen) {
     homeScreen.classList.add("hidden");
     quizScreen.classList.add("hidden");
@@ -180,6 +203,7 @@
     progressText.textContent = `Question ${currentIndex + 1} / ${quizQuestions.length}`;
     progressFill.style.width = `${((currentIndex) / quizQuestions.length) * 100}%`;
 
+    questionIntro.textContent = randomIntro();
     questionText.textContent = q.question || "";
 
     // Reset UI
