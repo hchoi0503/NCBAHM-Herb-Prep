@@ -203,7 +203,10 @@
     progressText.textContent = `Question ${currentIndex + 1} / ${quizQuestions.length}`;
     progressFill.style.width = `${((currentIndex) / quizQuestions.length) * 100}%`;
 
-    questionIntro.textContent = randomIntro();
+    const intro = randomIntro();
+    if (questionIntro) {
+      questionIntro.textContent = intro;
+    }
     questionText.textContent = q.question || "";
 
     // Reset UI
