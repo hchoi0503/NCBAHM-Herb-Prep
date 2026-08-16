@@ -1,6 +1,6 @@
-# NCBAHM Herb Prep
+# Codex Herbalis
 
-Simple mobile-friendly quiz app for practicing questions.
+Warhammer 40k–themed quiz app for NCBAHM herb prep practice.
 
 ## How to use
 
